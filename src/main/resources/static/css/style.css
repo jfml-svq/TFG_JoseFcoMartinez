@@ -1,0 +1,133 @@
+/* Estilos para el navegador */
+.nav {
+    background-color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el logo */
+.nav img {
+    width: 200px;
+}
+
+/* Estilos para la lista */
+.nav ul {
+    display: flex;
+}
+
+/* Estilos para los elementos de la lista */
+.nav ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+/* Estilos para los enlaces de la lista */
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Estilos para el submenu */
+.nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    padding: 10px;
+}
+
+/* Estilos para el submenu */
+.nav ul li:hover ul {
+    display: block;
+}
+
+/* Estilos para el submenu */
+.nav ul li ul li {
+    width: 100px;
+    padding: 10px;
+}
+
+/* Estilo para container */
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+    /*centrar contenido*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estilo para el título en el container */
+.container h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para el landing page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009200;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1200px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #009200;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    background-color: #009200;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #26764e;
+}
+
+/* Estilo para el pie de página */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #339966;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
